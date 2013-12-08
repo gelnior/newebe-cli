@@ -34,7 +34,7 @@ def get_config():
         if len(lines) > 1:
             url = lines[0].strip()
             password = lines[1].strip()
-            url = 'http://%s/' % url
+            url = 'https://%s/' % url
             return (url, password)
 
     return (None, None)
