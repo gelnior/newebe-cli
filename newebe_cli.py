@@ -10,17 +10,14 @@ DOC = """Newebe CLI.
 Usage:
   newebe_cli.py get lastmessages [--config=config_file]
   newebe_cli.py post <message> [--tag=<tag>] [--config=config_file]
-
   newebe_cli.py (-h | --help)
   newebe_cli.py --version
-
 Options:
   -h --help                Show this screen.
   --version                Show version.
   --tag=<tag>              Post messaage with given tag.
   --config=<config_file>   Change config file location
                            (default: ~/.newebe-config).
-
 """
 CONFIG_FILE_NAME = os.path.join(os.path.expanduser('~'), '.newebe-config')
 
