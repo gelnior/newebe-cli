@@ -13,7 +13,7 @@ This posts a new message to your contacts:
 
       newebe_cli.py post <message>
 
-Complete usage:
+Full usage:
 
     Usage:
       newebe_cli.py get lastmessages [--config=config_file]
