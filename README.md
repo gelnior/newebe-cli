@@ -7,6 +7,14 @@ line. It's useful when you're too lazy to open a web browser.
 
     pip install git+https://github.com/gelnior/newebe-cli.git
 
+# Configure
+
+Create `~/.newebe-config` then put your newebe url as first line and put your
+password as second line.
+
+I know that doesn't provide a good security. But you can start by making it
+only readable by your user.
+
 # Usage
 
 This displays the last 10 messages you received:
