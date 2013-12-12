@@ -1,7 +1,7 @@
 # Newebe CLI
 
 Small client to use the distributed social network Newebe from the command
-line. It's usefule if you're too lazy to open a web browser.
+line. It's useful when you're too lazy to open a web browser.
 
 # Usage
 
