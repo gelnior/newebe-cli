@@ -3,15 +3,19 @@
 Small client to use the distributed social network Newebe from the command
 line. It's useful when you're too lazy to open a web browser.
 
+# Install
+
+    pip install git+https://github.com/gelnior/newebe-cli.git
+
 # Usage
 
 This displays the last 10 messages you received:
 
-      newebe_cli.py get lastmessages
+    newebe_cli.py get lastmessages
 
 This posts a new message to your contacts:
 
-      newebe_cli.py post <message>
+    newebe_cli.py post <message>
 
 Full usage:
 
