@@ -5,6 +5,16 @@ line. It's usefule if you're too lazy to open a web browser.
 
 # Usage
 
+This displays the last 10 messages you received:
+
+      newebe_cli.py get lastmessages
+
+This posts a new message to your contacts:
+
+      newebe_cli.py post <message>
+
+Complete usage:
+
     Usage:
       newebe_cli.py get lastmessages [--config=config_file]
       newebe_cli.py post <message> [--tag=<tag>] [--config=config_file]
@@ -18,10 +28,4 @@ line. It's usefule if you're too lazy to open a web browser.
                                (default: ~/.newebe-config).
 
 
-      newebe_cli.py get lastmessages
 
-It displays the last 10 messages you received.
-
-      newebe_cli.py post <message>
-
-It posts a new message to your contacts.
